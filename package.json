@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --outDir docs",
+    "build": "tsc && vite build --outDir docs --base moriarty-console-solver",
     "preview": "vite preview"
   },
   "devDependencies": {
